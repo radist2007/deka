@@ -1,0 +1,46 @@
+
+div.map_1 div {
+  /* position: absolute; */
+  font-size: 10px;
+  color: #000;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.card {
+  margin-top: 30px;
+  /* max-width: 300px; */
+  min-width: 200px;
+}
+
+.card:hover {
+  box-shadow: 0 0 40px rgba(0,0,0,0.5);
+}
+
+.card-header,
+.card-footer {
+  color: #415100;
+}
+
+.card-text {
+  margin-top: 10px;
+  font-style: italic;
+  font-size: 12px;
+}
+
+.card-img-top {
+  height: 50% !important;
+  width: 50% !important;
+}
+
+div.map_1 img {
+  position: absolute;
+}
+
+div.map_1 div {
+  position: absolute;
+  font-size: 10px;
+  color: #000;
+}
