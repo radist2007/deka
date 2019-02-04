@@ -1,0 +1,21 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  background: #4CAF50;
+}
+
+div.map_1 img {
+  position: absolute;
+}
+
+div.map_1 div {
+  position: absolute;
+  font-size: 10px;
+  color: #000;
+}
+
+.mtop-20 {
+  margin-top: 60px;
+}
