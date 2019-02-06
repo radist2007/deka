@@ -1,21 +1,82 @@
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: #EFEFEF;
+  /* color: #757575; */
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
-nav {
-  background: #4CAF50;
+.waterSupply {
+  font-size: 15px;
+}
+.border {
+  border:1px solid green;
 }
 
 div.map_1 img {
+  position: relative;
   position: absolute;
 }
 
 div.map_1 div {
+  position: relative;
   position: absolute;
   font-size: 10px;
   color: #000;
 }
 
+.mtop-10 {
+  margin-top: 10px;
+}
+
 .mtop-20 {
-  margin-top: 60px;
+  margin-top: 20px;
+}
+.mtop-80 {
+  margin-top: 80px;
+}
+
+.textOnBG {
+  color: #757575;
+  color: #424242;
+}
+
+.map-fixer {
+  width: 500px;
+}
+
+.map-container {
+  height: 380px;
+  width: 350px;
+  
+}
+
+
+.logo-text_first {
+  margin-left: 20px;
+  margin-top: -6px;
+}
+
+.logo-text_second {
+  margin-top: 6px;
+  color: #cddc39;
+
+}
+
+
+
+.main {
+    flex: 1 0 auto;
+  }
+
+  .username,
+.password {
+  display: block;
+  width: 300px;
+  margin: 20px auto;
+}
+
+.card-content-fix {
+  padding: 10px !important;
 }

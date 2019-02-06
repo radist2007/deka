@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="shortcut icon" href="https://www.abon.com.ua/sites/default/files/favicon_0.ico" type="image/vnd.microsoft.icon">
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
@@ -14,41 +15,48 @@
   </head>
 
   <body>
-    <nav>
+    <nav class="light-green darken-4 ">
       <div class="nav-wrapper">
         <div class="container">
           <a href="#" class="brand-logo">
-            <img src="img/logo/LOGO_xs.png" alt="logo">
+            <i class="logo-text logo-text_first hide-on-small-only">КОМУНАЛЬНИЙ КАБІНЕТ</i>
+            <img src="img/logo/abon_LOGO.png" alt="logo" style="margin-top: 12px;">
+            <i class="logo-text logo-text_second right hide-on-med-and-down">АБОТЕНТА</i>
           </a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <!-- <a href="#" data-activates="nav-mobile" class="button-collapse">
             <i class="material-icons">menu</i>
           </a> -->
           <ul class="right hide-on-med-and-down">
             <li class="active"><a href="#">ГОЛОВНА</a></li>
             <li><a href="#!">ПАРОЛЬ</a></li>
-            <li><a class="waves-effect waves-light btn">ВИХІД</a></li>
+            <li><a href="login.html" class="waves-effect waves-light btn">ВИХІД</a></li>
           </ul>
-          <!-- <ul class="side-nav" id="mobile-demo">
-            <li><a href="#!">ГОЛОВНА</a></li>
-            <li><a href="#!">Пароль</a></li>
-            <li><a href="#!">вихід</a></li>
-          </ul> -->
-
         </div>
       </div>
     </nav>
+    <!-- side-nav -->
+    <ul class="sidenav right" id="mobile-demo">
+      <li class="center"><a href="#">ГОЛОВНА</a></li>
+      <li class="center"><a href="#">ПАРОЛЬ</a></li>
+      <li class="center"><a href="#">ВИХІД</a></li>
+    </ul>
+    <!-- #8BC34A light-green #00BCD4 cyan -->
 
     
-  <div class="container">
+  <div class="container mtop-10 hide-on-med-and-down">
+    <div class="card">
     <div class="row">
-      <div class="col s12 m12">
-        <div class="card-panel teal center">
-          <span class="white-text">ВИБЕРІТЬ КОМУНАЛЬНЕ ПІДПРИЄМСТВО</span>
+
+      <div class="">
+        <div class="card-content light-green center ">
+          <span class="textOnBG">ВИБЕРІТЬ КОМУНАЛЬНЕ ПІДПРИЄМСТВО</span>
+          <!-- <span class="white-text">ВИБЕРІТЬ КОМУНАЛЬНЕ ПІДПРИЄМСТВО</span> -->
         </div>
       </div>
     </div>
 
-    <section class="col-sm-12">
+    <section class="container center map-fixer" >
       <a id="main-content"></a>
       <div class="region region-content">
         <section id="block-ukrainemapblock" class="block block-community-card block-ukraine-map-block clearfix">
@@ -218,123 +226,278 @@
     </section>
   </div>
 
-
-
+      </div>
 
     <div class="container  mtop-20">
+      <div class="col s12 m12 center">
+        <div class="card-panel  center">
+          <h6 class="green-text ">Вінницька область</h6>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="container mtop-20">
       <div class="row">
-        <div class="col s3">
+        <div class="col s12 m6 l4 xl3">
           <div class="card hoverable small">
-            <div class="card-image">
-              <img src="sites/default/files/default_images/no_image (1).png" alt="img">
-              <span class="card-title">cherkass</span>
+            <div class="card-content card-content-fix light-green" >
+              <p class="center">м. Іллінці</p>
             </div>
-            <div class="card-content">
-              <p>ДП комун там щось Черкаси</p>
+            <div class="card-image valign-wrapper">
+              <img src="https://www.abon.com.ua/sites/default/files/2017-05/uman_logo.jpg" alt="img">
+              <span class="card-title cyan-text text-darken-2"><p class="truncate waterSupply">водопостачання і водовідведення</p></span>
             </div>
-            <div class="card-action">
-              <a href="#!">link</a>
+            <div class="card-action light-green darken-4">
+              <a href="user_room.html" class="truncate">ДП "Іллінціводоканал" КП "Вінницяоблводоканал"</a>
             </div>
           </div>
         </div>
-        <div class="col s3">
+        <div class="col s12 m6 l4 xl3">
           <div class="card hoverable small">
-            <div class="card-image">
-              <img src="sites/default/files/default_images/no_image (1).png" alt="img">
-              <span class="card-title">cherkass</span>
+            <div class="card-content light-green">
+              <p class="center">м. Бершадь</p>
             </div>
-            <div class="card-content">
-              <p>ДП комун там щось Черкаси</p>
+            <div class="card-image">
+              <img src="https://www.abon.com.ua/sites/default/files/2017-11/slavuta-logo.jpg" alt="img">
+              <span class="card-title cyan-text text-darken-2"><p class="truncate waterSupply">водопостачання і водовідведення</p></span>
+            </div>
+            <div class="card-action light-green darken-4">
+              <a href="#!" class="truncate">ДП "Бершадьводоканал"</a>
             </div>
           </div>
         </div>
-        <div class="col s3">
+        <div class="col s12 m6 l4 xl3">
           <div class="card hoverable small">
-            <div class="card-image">
-              <img src="sites/default/files/default_images/no_image (1).png" alt="img">
-              <span class="card-title">cherkass</span>
+            <div class="card-content light-green">
+              <p class="center">Томашпіль</p>
             </div>
-            <div class="card-content">
-              <p>ДП комун там щось Черкаси</p>
+            <div class="card-image">
+              <img src="https://www.abon.com.ua/sites/default/files/2017-11/ecocleaner-logomain.png" alt="img">
+              <span class="card-title cyan-text text-darken-2"><p class="truncate waterSupply">водопостачання і водовідведення</p></span>
+            </div>
+            <div class="card-action light-green darken-4">
+              <a href="#!" class="truncate">ДП "Томашпільводоканал"</a>
             </div>
           </div>
         </div>
-        <div class="col s3">
+        <div class="col s12 m6 l4 xl3">
           <div class="card hoverable small">
+            <div class="card-content light-green">
+              <p class="center">Калинівка</p>
+            </div>
             <div class="card-image">
               <img src="sites/default/files/default_images/no_image (1).png" alt="img">
-              <span class="card-title">cherkass</span>
+              <span class="card-title cyan-text text-darken-2"><p class="truncate waterSupply">водопостачання і водовідведення</p></span>
             </div>
-            <div class="card-content">
-              <p>ДП комун там щось Черкаси</p>
+            <div class="card-action light-green darken-4">
+              <a href="#!" class="truncate">ДП "Іллінціводоканал" КП "Вінницяоблводоканал"</a>
             </div>
           </div>
         </div>
-        <div class="col s3">
+        <div class="col s12 m6 l4 xl3">
           <div class="card hoverable small">
+            <div class="card-content light-green">
+              <p class="center">м. Іллінці</p>
+            </div>
             <div class="card-image">
               <img src="sites/default/files/default_images/no_image (1).png" alt="img">
-              <span class="card-title">cherkass</span>
+              <span class="card-title cyan-text text-darken-2"><p class="truncate waterSupply">водопостачання і водовідведення</p></span>
             </div>
-            <div class="card-content">
-              <p>ДП комун там щось Черкаси</p>
+            <div class="card-action light-green darken-4">
+              <a href="#!" class="truncate">ДП "Іллінціводоканал" КП "Вінницяоблводоканал"</a>
             </div>
           </div>
         </div>
-        <div class="col s3">
+        <div class="col s12 m6 l4 xl3">
           <div class="card hoverable small">
+            <div class="card-content light-green">
+              <p class="center">м. Бершадь</p>
+            </div>
             <div class="card-image">
               <img src="sites/default/files/default_images/no_image (1).png" alt="img">
-              <span class="card-title">cherkass</span>
+              <span class="card-title cyan-text text-darken-2"><p class="truncate waterSupply">водопостачання і водовідведення</p></span>
             </div>
-            <div class="card-content">
-              <p>ДП комун там щось Черкаси</p>
+            <div class="card-action light-green darken-4">
+              <a href="#!" class="truncate">ДП "Бершадьводоканал"</a>
             </div>
           </div>
         </div>
-        <div class="col s3">
+
+
+      </div>
+    </div>
+
+    <div class="container  mtop-80">
+      <div class="col s12 m12 center">
+        <div class="card-panel  center">
+          <h6 class="light-green-text ">Вінницька область</h6>
+        </div>
+      </div>
+    </div>
+<!-- =================================== -->
+<!-- =================================== -->
+
+<div class="fixed-action-btn">
+  <a class="btn-floating btn-large ">
+    <i class="large material-icons waves-effect waves-light">arrow_upward</i>
+  </a>
+  <ul>
+    <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+    <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+    <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+    <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+  </ul>
+</div>
+
+<!-- =================================== -->
+<!-- =================================== -->
+    <div class="container mtop-20">
+      <div class="row">
+        <div class="col s12 m6 l4 xl3">
           <div class="card hoverable small">
-            <div class="card-image">
-              <img src="sites/default/files/default_images/no_image (1).png" alt="img">
-              <span class="card-title">cherkass</span>
+            <div class="card-content light-green">
+              <p class="center">м. Іллінці</p>
             </div>
-            <div class="card-content">
-              <p>ДП комун там щось Черкаси</p>
+            <div class="card-image">
+              <img src="https://www.abon.com.ua/sites/default/files/2017-05/uman_logo.jpg" alt="img">
+              <span class="card-title cyan-text text-darken-2"><p class="truncate waterSupply">водопостачання і водовідведення</p></span>
+            </div>
+            <div class="card-action light-green darken-4">
+              <a href="user_room.html" class="truncate">ДП "Іллінціводоканал" КП "Вінницяоблводоканал"</a>
             </div>
           </div>
         </div>
-        <div class="col s3">
+        <div class="col s12 m6 l4 xl3">
           <div class="card hoverable small">
+            <div class="card-content light-green">
+              <p class="center">м. Бершадь</p>
+            </div>
+            <div class="card-image">
+              <img src="https://www.abon.com.ua/sites/default/files/2017-11/slavuta-logo.jpg" alt="img">
+              <span class="card-title cyan-text text-darken-2"><p class="truncate waterSupply">водопостачання і водовідведення</p></span>
+            </div>
+            <div class="card-action light-green darken-4">
+              <a href="#!" class="truncate">ДП "Бершадьводоканал"</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4 xl3">
+          <div class="card hoverable small">
+            <div class="card-content light-green">
+              <p class="center">Томашпіль</p>
+            </div>
+            <div class="card-image">
+              <img src="https://www.abon.com.ua/sites/default/files/2017-11/ecocleaner-logomain.png" alt="img">
+              <span class="card-title cyan-text text-darken-2"><p class="truncate waterSupply">водопостачання і водовідведення</p></span>
+            </div>
+            <div class="card-action light-green darken-4">
+              <a href="#!" class="truncate">ДП "Томашпільводоканал"</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4 xl3">
+          <div class="card hoverable small">
+            <div class="card-content light-green">
+              <p class="center">Калинівка</p>
+            </div>
             <div class="card-image">
               <img src="sites/default/files/default_images/no_image (1).png" alt="img">
-              <span class="card-title">cherkass</span>
+              <span class="card-title cyan-text text-darken-2"><p class="truncate waterSupply">водопостачання і водовідведення</p></span>
             </div>
-            <div class="card-content">
-              <p>ДП комун там щось Черкаси</p>
+            <div class="card-action light-green darken-4">
+              <a href="#!" class="truncate">ДП "Іллінціводоканал" КП "Вінницяоблводоканал"</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m6 l4 xl3">
+          <div class="card hoverable small">
+            <div class="card-content light-green">
+              <p class="center">м. Іллінці</p>
+            </div>
+            <div class="card-image">
+              <img src="sites/default/files/default_images/no_image (1).png" alt="img">
+              <span class="card-title cyan-text text-darken-2"><p class="truncate waterSupply">водопостачання і водовідведення</p></span>
+            </div>
+            <div class="card-action light-green darken-4">
+              <a href="#!" class="truncate">ДП "Іллінціводоканал" КП "Вінницяоблводоканал"</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4 xl3">
+          <div class="card hoverable small">
+            <div class="card-content light-green">
+              <p class="center">м. Бершадь</p>
+            </div>
+            <div class="card-image">
+              <img src="sites/default/files/default_images/no_image (1).png" alt="img">
+              <span class="card-title cyan-text text-darken-2"><p class="truncate waterSupply">водопостачання і водовідведення</p></span>
+            </div>
+            <div class="card-action light-green darken-4">
+              <a href="#!" class="truncate">ДП "Бершадьводоканал"</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4 xl3">
+          <div class="card hoverable small">
+            <div class="card-content light-green">
+              <p class="center">м. Іллінці</p>
+            </div>
+            <div class="card-image">
+              <img src="sites/default/files/default_images/no_image (1).png" alt="img">
+              <span class="card-title cyan-text text-darken-2"><p class="truncate waterSupply">водопостачання і водовідведення</p></span>
+            </div>
+            <div class="card-action light-green darken-4">
+              <a href="#!" class="truncate">ДП "Іллінціводоканал" КП "Вінницяоблводоканал"</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4 xl3">
+          <div class="card hoverable small">
+            <div class="card-content light-green">
+              <p class="center">м. Іллінці</p>
+            </div>
+            <div class="card-image">
+              <img src="sites/default/files/default_images/no_image (1).png" alt="img">
+              <span class="card-title cyan-text text-darken-2"><p class="truncate waterSupply">водопостачання і водовідведення</p></span>
+            </div>
+            <div class="card-action light-green darken-4">
+              <a href="#!" class="truncate">ДП "Іллінціводоканал" КП "Вінницяоблводоканал"</a>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <footer class="page-foter">
+
+
+
+    <footer class="page-foter light-green darken-4 white-text">
       <div class="container">
         <div class="row">
           <div class="col l6 s12">
-            <h5 class="">footer text</h5>
+            <h5 class="">Цікава інформація</h5>
             <!-- <h5 class="white-text">footer text</h5> -->
             <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo odit sapiente dolorum! Consequatur omnis, eos deleniti eligendi cumque fugiat similique?</p>
           </div>
-          <div class="col l4 offset-12 s12">
-            <h5 class="">footer text</h5>
-            <!-- <h5 class="white-text">footer text</h5> -->
-            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo odit sapiente dolorum! Consequatur omnis, eos deleniti eligendi cumque fugiat similique?</p>
-          </div>
+          <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+              </div>
         </div>
       </div>
       <div class="footer-copyright">
         <div class="container">
-          @2019 Some One
+          <span>© 2019 </span>
+          <span class="right">www.abon.com.ua</span>
 
         </div>
       </div>
