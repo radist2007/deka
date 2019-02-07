@@ -36,6 +36,9 @@ div.map_1 div {
 .mtop-80 {
   margin-top: 80px;
 }
+.pBottom-20 {
+  padding-bottom: 20px;
+}
 
 .textOnBG {
   color: #757575;
@@ -52,19 +55,18 @@ div.map_1 div {
   
 }
 
-
 .logo-text_first {
   margin-left: 20px;
   margin-top: -6px;
 }
 
 .logo-text_second {
-  margin-top: 6px;
+  margin-top: 14px;
+  margin-left: -80px;
   color: #cddc39;
+  font-size: 16px;
 
 }
-
-
 
 .main {
     flex: 1 0 auto;
