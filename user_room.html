@@ -51,14 +51,20 @@
           <div class="col s12">
             <div class="card light-green">
               <div class="card-content white-text ">
-                <a class="waves-effect waves-light btn-large"><img src="img/button_PageInfo.png" alt="info image"> інформація</a>
-                <a class="waves-effect waves-light btn-large"><i class="material-icons left">cloud</i>новини</a>
-                <a class="waves-effect waves-light btn-large"><i class="material-icons left">cloud</i>розрахунки</a>
-                <span class="card-title right">КП "Водоканад"</span>
+                <div class="row">
+                  <a class="waves-effect waves-light btn-large col s12 m2"> інформація</a>
+                  <a class="waves-effect waves-light btn-large col s12 m2 mleft-10">новини</a>
+                  <a class="waves-effect waves-light btn-large col s12 m2 mleft-10">розрахунки</a>
+                  <span class="card-title right">КП "Водоканад"</span>
+                </div>
+
               </div>
+
             </div>
           </div>
         </div>
+
+
 
 
         <div class="row">
@@ -67,8 +73,72 @@
               <div class="card-content ">
                 <span class="card-title">
                   Особові рахунки
-                  <a class="waves-effect waves-light btn right">додати рахунок<i class="material-icons right">cloud</i></a>
+                  <!-- Modal Trigger -->
+                  <a class="waves-effect waves-light btn right modal-trigger" href="#modal1">додати рахунок<i class="material-icons right">add</i></a>
+
+                  <!-- Modal Structure -->
+                  <div id="modal1" class="modal">
+                    <div class="modal-content">
+                      <h4>Реєстрація персонального рахунку</h4>
+                      <div class="input-field">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">номер рахунку з договору або розрахункової книжки</label>
+                      </div>
+                      <div class="input-field">
+                        <i class="material-icons prefix">attach_money</i>
+                        <input id="name" type="text" class="validate">
+                        <label for="name">введіть суму Вашого останього платежу</label>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <a href="#!" class="modal-close waves-effect waves-green btn-flat ">Зареєстувати</a>
+                    </div>
+                  </div>
                 </span>
+              </div>
+              <div class="card-action">
+                  <div class="card hoverable">
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Рахунок 0157<i class="material-icons right">more_vert</i></span>
+                      <p>Власник 1669 вул. 1-го Травня, буд.1, кв.1</p>
+                      <div class="card-panel light-green white-text center">
+                        <h5>
+                          ВАША ЗАГАЛЬНА ПЕРЕПЛАТА: -524.67 грн
+                        </h5>
+                      </div>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4 center">Рахунок 0157<i class="material-icons right">close</i></span>
+                      <p>Кількість проживаючих: 1</p>
+                      <p>Вид послуги: Водопостачання і водовідведення</p>
+                      <p>Пільги:Iнвалiд вiйни 2 групи.</p>
+                      <p>дійсна з 2018.10.08 до 2019.10.08</p>
+                      <p>card: 111</p>
+                      <p>count: 1</p>
+                    </div>
+                  </div>
+                  <div class="card hoverable">
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Рахунок 0157<i class="material-icons right">more_vert</i></span>
+                      <p>Власник 1669 вул. 1-го Травня, буд.1, кв.1</p>
+                      <div class="card-panel light-green white-text center">
+                        <h5>
+                          ВАША ЗАГАЛЬНА ПЕРЕПЛАТА: -524.67 грн
+                        </h5>
+                      </div>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4 center">Рахунок 0157<i class="material-icons right">close</i></span>
+                      <p>Кількість проживаючих: 1</p>
+                      <p>Вид послуги: Водопостачання і водовідведення</p>
+                      <p>Пільги:Iнвалiд вiйни 2 групи.</p>
+                      <p>дійсна з 2018.10.08 до 2019.10.08</p>
+                      <p>card: 111</p>
+                      <p>count: 1</p>
+                    </div>
+                  </div>
+
               </div>
             </div>
           </div>
@@ -77,32 +147,194 @@
         <div class="row">
           <div class="col s12">
             <div class="card">
-              <div class="card-content ">
-                <span class="card-title">Лічильник</span>
-                
-      <table class="striped responsive-table">
-        <thead>
-          <tr>
-              <th>Лічильник</th>
-              <th>2018-11</th>
-              <th>Остфнній показ</th>
-              <th>Новий показник</th>
-              <th>Використано</th>
-          </tr>
-        </thead>
+              <div class="card-content">
+                <span class="card-title">
+                  Особові рахунки
+                  <a class="waves-effect waves-light btn right">додати рахунок<i class="material-icons right">add</i></a>
+                </span>
+              </div>
+              <div class="card-action">
+                <div class="card">
+                  <ul class="collapsible">
+                    <li>
+                      <div class="collapsible-header">
+                        Рахунок 0157
+                        <span class="badge">ВАША ЗАГАЛЬНА ПЕРЕПЛАТА: -524.67 грн</span>
+                      </div>
+                      <div class="collapsible-body">
+                        <p>Власник 1669 вул. 1-го Травня, буд.1, кв.1</p>
+                        <p>Кількість проживаючих: 1</p>
+                        <p>Вид послуги: Водопостачання і водовідведення</p>
+                        <p>Пільги:Iнвалiд вiйни 2 групи.</p>
+                        <p>дійсна з 2018.10.08 до 2019.10.08</p>
+                        <p>card: 111</p>
+                        <p>count: 1</p>
 
-        <tbody>
-          <tr>
-            <td>(ВХ) ВХ1-023965Б<br>Холодна вода</td>
-            <td>254</td>
-            <td >254</td>
-            <td ><input type="text"></td>
-            <td ></td>
-          </tr>
-        </tbody>
-      </table>
+                      </div>
+                    </li>
+
+                </div>
+                <div class="card">
+                  <ul class="collapsible">
+                    <li>
+                      <div class="collapsible-header">
+                        Рахунок 2099
+                        <span class="badge">ВАША ЗАГАЛЬНА ПЕРЕПЛАТА: -100.67 грн</span>
+                      </div>
+                      <div class="collapsible-body">
+                        <p>Кількість проживаючих: 1</p>
+                        <p>Вид послуги: Водопостачання і водовідведення</p>
+                        <p>Пільги:Iнвалiд вiйни 2 групи.</p>
+                        <p>дійсна з 2018.10.08 до 2019.10.08</p>
+                        <p>card: 111</p>
+                        <p>count: 1</p>
+
+                      </div>
+                    </li>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col s12">
+            <div class="card">
+              <div class="card-content ">
+                <span class="card-title">Лічильник
+                    <button class="btn waves-effect waves-light right" type="submit" name="action">Надіслати показники<i class="material-icons right">send</i>
+                    </button>
+                </span>
+                
+                <table class="responsive-table centered">
+                  <thead>
+                    <tr>
+                        <th>Лічильник</th>
+                        <th>2018-11</th>
+                        <th>Остфнній показ</th>
+                        <th>Новий показник</th>
+                        <th>Використано</th>
+                    </tr>
+                  </thead>
+
+                  <tbody>
+                    <tr>
+                      <td>(ВХ) ВХ1-023965Б<br>Холодна вода</td>
+                      <td>254</td>
+                      <td >254</td>
+                      <td ><input type="text"></td>
+                      <td ></td>
+                    </tr>
+                  </tbody>
+                </table>
             
               </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col s12">
+            <div class="card">
+              <div class="card-content ">
+                <span class="card-title">Вода + стоки<div class="right">ПЕРЕПЛАТА: -524.67 грн.</div></span>
+              </div>
+
+                <div class="card-action">
+
+                <table class="responsive-table centered">
+                  <thead >
+                    <tr class="highlight ">
+                        <th >Період</th>
+                        <th>Нарахування</th>
+                        <th>Пільги</th>
+                        <th>Всього</th>
+                        <th>Оплата</th>
+                        <th>Субсидія</th>
+                        <th>Всього</th>
+                        <th>Сальдо</th>
+                    </tr>
+                  </thead>
+
+
+                  <tbody>
+                    <tr>
+                      <td>2018-11</td>
+                      <td>-20.00</td>
+                      <td></td>
+                      <td>-20.00</td>
+                      <td>200.00</td>
+                      <td></td>
+                      <td>200.00</td>
+                      <td class="">-524.67</td>
+                    </tr>
+                    <tr>
+                      <td>2018-10</td>
+                      <td></td>
+                      <td></td>
+                      <td>0.00</td>
+                      <td></td>
+                      <td></td>
+                      <td>0.00</td>
+                      <td >-304.67</td>
+                    </tr>
+                    <tr>
+                      <td>2017-02</td>
+                      <td></td>
+                      <td></td>
+                      <td>0.00</td>
+                      <td></td>
+                      <td>0.00</td>
+                      <td>0.00</td>
+                      <td>-304.67</td>
+                    </tr>
+                    <tr>
+                      <td>2017-01</td>
+                      <td>16.96</td>
+                      <td></td>
+                      <td>16.96</td>
+                      <td>8.40</td>
+                      <td>55.98</td>
+                      <td>66.99</td>
+                      <td>-213.57</td>
+                    </tr>
+                    <tr>
+                      <td>2016-12</td>
+                      <td>19.94</td>
+                      <td>19.94</td>
+                      <td></td>
+                      <td>8.65</td>
+                      <td>54.97</td>
+                      <td>63.62</td>
+                      <td>-257.25</td>
+                    </tr>
+                    <tr>
+                      <td>2016-11</td>
+                      <td>32.41</td>
+                      <td>35.20</td>
+                      <td></td>
+                      <td>11.87</td>
+                      <td>55.12</td>
+                      <td>66.90</td>
+                      <td>-213.57</td>
+                    </tr>
+                    <tr>
+                      <td>2016-10</td>
+                      <td>37.34</td>
+                      <td></td>
+                      <td>37.34</td>
+                      <td>15.22</td>
+                      <td></td>
+                      <td>15.22</td>
+                      <td class="light-green">-93.09</td>
+                    </tr>
+                  </tbody>
+                </table>
+            
+                </div>
             </div>
           </div>
         </div>
