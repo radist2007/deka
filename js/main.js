@@ -46,6 +46,19 @@ console.log("yep");
   $(document).ready(function(){
     $('.modal').modal();
   });
+
+  
+  //  ================================================================== TABS
+  // var instance = M.Tabs.init(el, options);
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.tabs').tabs();
+    $('.tabs').tabs('swipeable', true);
+  });
+  //  ================================================================== tabs
+       
       
 
 const username = new MDCTextField(document.querySelector('.username'));

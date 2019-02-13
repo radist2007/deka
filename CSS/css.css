@@ -7,6 +7,10 @@ body {
   flex-direction: column;
 }
 
+.bg-color {
+  background-color: #EFEFEF;
+}
+
 .waterSupply {
   font-size: 15px;
 }
@@ -96,4 +100,23 @@ div.map_1 div {
 
 .card-content-fix {
   padding: 10px !important;
+}
+
+
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+  background-color: #33691E!important;
+  outline: none;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+  background-color: #33691E!important;
+  color: white!important;
+}
+
+.tabs .indicator {
+  background-color: #2BBBAD;
+}
+
+.tAr {
+  text-align: right!important;
 }

@@ -5,7 +5,7 @@
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="CSS/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="CSS/materialize.css"  media="screen,projection"/>
 
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
     <link rel="stylesheet" href="CSS/css.css">
@@ -14,7 +14,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
 
+
   <body>
+    <!-- HEADER -->
     <nav class="light-green darken-4">
       <div class="nav-wrapper">
         <div class="container">
@@ -24,9 +26,6 @@
             <i class="logo-text logo-text_second right ">АБОТЕНТА</i>
           </a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-          <!-- <a href="#" data-activates="nav-mobile" class="button-collapse">
-            <i class="material-icons">menu</i>
-          </a> -->
           <ul class="right hide-on-med-and-down">
             <li class=""><a href="index.html">ГОЛОВНА</a></li>
           </ul>
@@ -42,12 +41,12 @@
       <li class="center"><a href="#">ПАРОЛЬ</a></li>
       <li class="center"><a href="#">ВИХІД</a></li>
     </ul>
-    <!-- #8BC34A light-green #00BCD4 cyan -->
+    <!-- end of header -->
 
     <div class="main">
       <div class="container">
 
-        <div class="row">
+        <!-- <div class="row">
           <div class="col s12">
             <div class="card light-green">
               <div class="card-content white-text ">
@@ -62,10 +61,61 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
+
+        <div class="row">
+          <div class="col s12">
+            <div class="card light-green">
+              <div class="card-content">
+                <div class="row">
+                  <span class="card-title center white-text ">КП "Водоканад"</span>
+                </div>
+                <div class="row">
+        <div class="row">
+          <div class="col s12">
+            <ul id="tabs" class="tabs light-green white-text">
+              <li class="tab col s4"><a href="#test1" class="white-text">інформація</a></li>
+              <li class="tab col s4"><a href="#test2" class="white-text">новини</a></li>
+              <li class="tab col s4"><a href="#test3" class="white-text active">розрахунки</a></li>
+            </ul>
+          </div>
+          <div id="test1" class="col s12">
+            <div class="card">
+              <div class="card-content">
+                <div class="card-title">
+                  info card
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="test2" class="col s12">
+            <div class="card">
+              <div class="card-content">
+                <div class="card-title">
+                  news card
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="test3" class="col s12">
 
 
-
+        <!-- <div class="row">
+          <div class="col s12">
+            <ul class="tabs light-green white-text">
+              <li class="tab col s4"><a href="#test1" class="white-text">інформація</a></li>
+              <li class="tab col s4"><a class="active" href="#test2" class="white-text">новини</a></li>
+              <li class="tab col s4"><a href="#test3" class="white-text">розрахунки</a></li>
+            </ul>
+          </div>
+          <div id="test1" class="col s12">
+            info
+          </div>
+          <div id="test2" class="col s12">
+            news
+          </div>
+          <div id="test3" class="col s12"> -->
+            <!-- ===================================================================================================== -->
 
         <div class="row">
           <div class="col s12">
@@ -100,7 +150,7 @@
 
 
 
-              <div class="card-action">
+              <div class="card-action bg-color">
                 <div class="card">
                   <ul class="collapsible">
                     <li>
@@ -112,29 +162,8 @@
                       </div>
 
                       <div class="collapsible-body ">
-                        <div class="card">
-                          <div class="card-content light-green ">
-                            <div class="card-title ">
-                              Інформація по рахунку
-                            </div>
-                          </div>
-                          <div class="card-content">
-                            <div class="row">
-                            <div class="col s12 m6">
-                              <p><b>Власник:</b> 1669 вул. 1-го Травня, буд.1, кв.1</p>
-                              <p><b>Кількість проживаючих:</b> 1</p>
-                              <p><b>Вид послуги:</b> Водопостачання і водовідведення</p>
-                            </div>
-                            <div class="col s12 m6">
-                              <p><b>Пільги:</b> Iнвалiд вiйни 2 групи.</p>
-                              <p><b>дійсна з:</b> 2018.10.08 до 2019.10.08</p>
-                              <p><b>card:</b> 111</p>
-                              <p><b>count:</b> 1</p>
-                            </div>
 
-                            </div>
-                          </div>
-                        </div>
+
                         <!-- LICHYLNYK -->
                         <div class="card">
                           <div class="card-content light-green">
@@ -169,188 +198,22 @@
                         </div>
                         <!-- end of lichylnyk -->
 
-                        <!-- WOTER TABLE -->
-                        <div class="card reveal">
-                          <div class="card-content light-green">
-                            <span class="card-title">Вода + стоки<div class="right">ПЕРЕПЛАТА: <span class="white-text"><b> -524.67</b></span> грн.</div></span>
-                          </div>
-
-                          <!-- <div class="card-action"> -->
-
-                            <table class="responsive-table centered">
-                              <thead class="centered">
-                                <tr>
-                                  <th rowspan="2" >Період</th>
-                                  <th colspan="3" class="td-bg">Нарахування</th>
-                                  <th colspan="3">Оплата</th>
-                                  <th rowspan="2"class="td-bg">Сальдо</th>
-                                </tr>
-                                <tr class="highlight ">
-                                    <!-- <th >Період</th> -->
-                                    <th class="td-bg">Нарахування</th>
-                                    <th class="td-bg">Пільги</th>
-                                    <th class="td-bg">Всього</th>
-                                    <th>ОПЛАТА</th>
-                                    <th>СУБСИДІЯ</th>
-                                    <th>Всього</th>
-                                    <!-- <th class="td-bg">Сальдо</th> -->
-                                </tr>
-                              </thead>
-
-
-                              <tbody>
-                                  <tr>
-                                    <td>2018-11</td>
-                                    <td class="td-bg">-20.00</td>
-                                    <td class="td-bg"></td>
-                                    <td class="td-bg">-20.00</td>
-                                    <td>200.00</td>
-                                    <td></td>
-                                    <td>200.00</td>
-                                    <td class="td-bg">-524.67</td>
-                                  </tr>
-                                  <tr>
-                                    <td>2018-10</td>
-                                    <td class="td-bg"></td>
-                                    <td class="td-bg"></td>
-                                    <td class="td-bg">0.00</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td>0.00</td>
-                                    <td class="td-bg">-304.67</td>
-                                  </tr>
-                                  <tr>
-                                    <td>2017-02</td>
-                                    <td class="td-bg"></td>
-                                    <td class="td-bg"></td>
-                                    <td class="td-bg">0.00</td>
-                                    <td></td>
-                                    <td>0.00</td>
-                                    <td>0.00</td>
-                                    <td class="td-bg">-304.67</td>
-                                  </tr>
-                                  <tr>
-                                    <td>2017-01</td>
-                                    <td class="td-bg">16.96</td>
-                                    <td class="td-bg"></td>
-                                    <td class="td-bg">16.96</td>
-                                    <td>8.40</td>
-                                    <td>55.98</td>
-                                    <td>66.99</td>
-                                    <td class="td-bg">-213.57</td>
-                                  </tr>
-                                  <tr>
-                                    <td>2016-12</td>
-                                    <td class="td-bg">19.94</td>
-                                    <td class="td-bg">19.94</td>
-                                    <td class="td-bg"></td>
-                                    <td>8.65</td>
-                                    <td>54.97</td>
-                                    <td>63.62</td>
-                                    <td class="td-bg">-257.25</td>
-                                  </tr>
-                                  <tr>
-                                    <td>2016-11</td>
-                                    <td class="td-bg">32.41</td>
-                                    <td class="td-bg">35.20</td>
-                                    <td class="td-bg"></td>
-                                    <td>11.87</td>
-                                    <td>55.12</td>
-                                    <td>66.90</td>
-                                    <td class="td-bg">-213.57</td>
-                                  </tr>
-                                  <tr>
-                                    <td>2016-10</td>
-                                    <td class="td-bg">37.34</td>
-                                    <td class="td-bg"></td>
-                                    <td class="td-bg">37.34</td>
-                                    <td>15.22</td>
-                                    <td></td>
-                                    <td>15.22</td>
-                                    <td class="td-bg">-93.09</td>
-                                  </tr>
-                                </tbody>
-                              </table>
-                            <!-- </div> -->
-                        </div>
-                      </div>
-                    </li>
+                  <ul class="collapsible">
                     <li>
-                      <div class="collapsible-header valign-wrapper">
-                        <h6><b>Рахунок 1570 </b>
-                        <br/>
-                        Власник 1669 вул. 1-го Травня, буд.1, кв.1</h6>
-                        <span class="badge">ВАША ЗАГАЛЬНА ПЕРЕПЛАТА: <b>-824.67 грн</b></span>
+                      <div class="collapsible-header valign-wrapper light-green">
+                        <h6><b>Вода + стоки</b></h6>
+                        <span class="badge">ВАША ЗАГАЛЬНА ПЕРЕПЛАТА: <b>-524.67грн</b></span>
                       </div>
 
                       <div class="collapsible-body ">
-                        <div class="card">
-                          <div class="card-content light-green ">
-                            <div class="card-title ">
-                              Інформація по рахунку
-                            </div>
-                          </div>
-                          <div class="card-content">
-                            <div class="row">
-                            <div class="col s12 m6">
-                              <p><b>Власник:</b> 1669 вул. 1-го Травня, буд.1, кв.1</p>
-                              <p><b>Кількість проживаючих:</b> 1</p>
-                              <p><b>Вид послуги:</b> Водопостачання і водовідведення</p>
-                            </div>
-                            <div class="col s12 m6">
-                              <p><b>Пільги:</b> Iнвалiд вiйни 2 групи.</p>
-                              <p><b>дійсна з:</b> 2018.10.08 до 2019.10.08</p>
-                              <p><b>card:</b> 111</p>
-                              <p><b>count:</b> 1</p>
-                            </div>
-
-                            </div>
-                          </div>
-                        </div>
-                        <!-- LICHYLNYK -->
-                        <div class="card">
-                          <div class="card-content light-green">
-                            <div class="card-title ">Лічильник
-                                <button class="btn waves-effect waves-light right" type="submit" name="action">Надіслати показники<i class="material-icons right">send</i>
-                                </button>
-                            </div>
-                          </div>
-                          <!-- <div class="card-content"> -->
-                            <table class="responsive-table centered">
-                              <thead>
-                                <tr>
-                                    <th>Лічильник</th>
-                                    <th>2018-11</th>
-                                    <th>Остфнній показ</th>
-                                    <th>Новий показник</th>
-                                    <th>Використано</th>
-                                </tr>
-                              </thead>
-                              <tbody>
-                                <tr>
-                                  <td>(ВХ) ВХ1-023965Б<br>Холодна вода</td>
-                                  <td>254</td>
-                                  <td >254</td>
-                                  <td ><input type="text"></td>
-                                  <td ></td>
-                                </tr>
-                              </tbody>
-                            </table>
-
-                          <!-- </div> -->
-                        </div>
-                        <!-- end of lichylnyk -->
-
                         <!-- WOTER TABLE -->
-                        <div class="card reveal">
-                          <div class="card-content light-green">
-                            <span class="card-title">Вода + стоки<div class="right">ПЕРЕПЛАТА: <span class="white-text"><b> -524.67</b></span> грн.</div></span>
-                          </div>
+                        <!-- <div class="card reveal"> -->
+                          <!-- <div class="card-content light-green"> -->
+                            <!-- <span class="card-title">Вода + стоки<div class="right">ПЕРЕПЛАТА: <span class="white-text"><b> -524.67</b></span> грн.</div></span> -->
+                          <!-- </div> -->
 
-                          <!-- <div class="card-action"> -->
-
-                            <table class="responsive-table centered">
-                              <thead class="centered">
+                            <table class="responsive-table centered "  style="text-align: right">
+                              <thead>
                                 <tr>
                                   <th rowspan="2" >Період</th>
                                   <th colspan="3" class="td-bg">Нарахування</th>
@@ -373,250 +236,117 @@
                               <tbody>
                                   <tr>
                                     <td>2018-11</td>
-                                    <td class="td-bg">-20.00</td>
-                                    <td class="td-bg"></td>
-                                    <td class="td-bg">-20.00</td>
-                                    <td>200.00</td>
-                                    <td></td>
-                                    <td>200.00</td>
-                                    <td class="td-bg">-524.67</td>
+                                    <td class="td-bg tAr">-20.00</td>
+                                    <td class="td-bg tAr">0.00</td>
+                                    <td class="td-bg tAr">-20.00</td>
+                                    <td class="tAr">200.00</td>
+                                    <td class="tAr">0.00</td>
+                                    <td class="tAr">200.00</td>
+                                    <td class="td-bg tAr">-524.67</td>
                                   </tr>
                                   <tr>
                                     <td>2018-10</td>
-                                    <td class="td-bg"></td>
-                                    <td class="td-bg"></td>
-                                    <td class="td-bg">0.00</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td>0.00</td>
-                                    <td class="td-bg">-304.67</td>
+                                    <td class="td-bg tAr">0.00</td>
+                                    <td class="td-bg tAr">0.00</td>
+                                    <td class="td-bg tAr">0.00</td>
+                                    <td class="tAr">0.00</td>
+                                    <td class="tAr">0.00</td>
+                                    <td class="tAr">0.00</td>
+                                    <td class="td-bg tAr">-304.67</td>
                                   </tr>
                                   <tr>
                                     <td>2017-02</td>
-                                    <td class="td-bg"></td>
-                                    <td class="td-bg"></td>
-                                    <td class="td-bg">0.00</td>
-                                    <td></td>
-                                    <td>0.00</td>
-                                    <td>0.00</td>
-                                    <td class="td-bg">-304.67</td>
+                                    <td class="td-bg tAr">0.00</td>
+                                    <td class="td-bg tAr">0.00</td>
+                                    <td class="td-bg tAr">0.00</td>
+                                    <td class="tAr">0.00</td>
+                                    <td class="tAr">0.00</td>
+                                    <td class="tAr">0.00</td>
+                                    <td class="td-bg tAr">0.00</td>
                                   </tr>
                                   <tr>
                                     <td>2017-01</td>
-                                    <td class="td-bg">16.96</td>
-                                    <td class="td-bg"></td>
-                                    <td class="td-bg">16.96</td>
-                                    <td>8.40</td>
-                                    <td>55.98</td>
-                                    <td>66.99</td>
-                                    <td class="td-bg">-213.57</td>
+                                    <td class="td-bg tAr">16.96</td>
+                                    <td class="td-bg tAr"></td>
+                                    <td class="td-bg tAr">16.96</td>
+                                    <td class="tAr">8.40</td>
+                                    <td class="tAr">55.98</td>
+                                    <td class="tAr">66.99</td>
+                                    <td class="td-bg tAr">-213.57</td>
                                   </tr>
                                   <tr>
                                     <td>2016-12</td>
-                                    <td class="td-bg">19.94</td>
-                                    <td class="td-bg">19.94</td>
-                                    <td class="td-bg"></td>
-                                    <td>8.65</td>
-                                    <td>54.97</td>
-                                    <td>63.62</td>
-                                    <td class="td-bg">-257.25</td>
+                                    <td class="td-bg tAr">19.94</td>
+                                    <td class="td-bg tAr">19.94</td>
+                                    <td class="td-bg tAr"></td>
+                                    <td class="tAr">8.65</td>
+                                    <td class="tAr">54.97</td>
+                                    <td class="tAr">63.62</td>
+                                    <td class="td-bg tAr">0.00</td>
                                   </tr>
                                   <tr>
                                     <td>2016-11</td>
-                                    <td class="td-bg">32.41</td>
-                                    <td class="td-bg">35.20</td>
-                                    <td class="td-bg"></td>
-                                    <td>11.87</td>
-                                    <td>55.12</td>
-                                    <td>66.90</td>
-                                    <td class="td-bg">-213.57</td>
+                                    <td class="td-bg tAr">32.41</td>
+                                    <td class="td-bg tAr">35.20</td>
+                                    <td class="td-bg tAr"></td>
+                                    <td class="tAr">11.87</td>
+                                    <td class="tAr">55.12</td>
+                                    <td class="tAr">66.90</td>
+                                    <td class="td-bg tAr">-213.57</td>
                                   </tr>
                                   <tr>
                                     <td>2016-10</td>
-                                    <td class="td-bg">37.34</td>
-                                    <td class="td-bg"></td>
-                                    <td class="td-bg">37.34</td>
-                                    <td>15.22</td>
-                                    <td></td>
-                                    <td>15.22</td>
-                                    <td class="td-bg">-93.09</td>
+                                    <td class="td-bg tAr">37.34</td>
+                                    <td class="td-bg tAr"></td>
+                                    <td class="td-bg tAr">37.34</td>
+                                    <td class="tAr">15.22</td>
+                                    <td class="tAr"></td>
+                                    <td class="tAr">15.22</td>
+                                    <td class="td-bg tAr">-93.09</td>
                                   </tr>
                                 </tbody>
                               </table>
                             <!-- </div> -->
+                            <!-- end of table -->
+
+
+                      </div>
+                    </li>
+                  </ul>
+                        <!-- INFO ABOUT ACCOUNT -->
+                        <div class="card">
+                          <div class="card-content light-green ">
+                            <div class="card-title ">
+                              Інформація по рахунку
+                            </div>
+                          </div>
+                          <div class="card-content">
+                            <div class="row">
+                              <div class="col s12 m6">
+                                <p><b>Власник:</b> 1669 вул. 1-го Травня, буд.1, кв.1</p>
+                                <p><b>Кількість проживаючих:</b> 1</p>
+                                <p><b>Вид послуги:</b> Водопостачання і водовідведення</p>
+                              </div>
+                              <div class="col s12 m6">
+                                <p><b>Пільги:</b> Iнвалiд вiйни 2 групи.</p>
+                                <p><b>дійсна з:</b> 2018.10.08 до 2019.10.08</p>
+                                <p><b>card:</b> 111</p>
+                                <p><b>count:</b> 1</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- end of info about account -->
+
                         </div>
                       </div>
                     </li>
-                    <li>
-                      <div class="collapsible-header valign-wrapper">
-                        <h6><b>Рахунок 0157 </b>
-                        <br/>
-                        Власник 1669 вул. 1-го Травня, буд.1, кв.1</h6>
-                        <span class="badge">ВАША ЗАГАЛЬНА ПЕРЕПЛАТА: <b>-524.67 грн</b></span>
-                      </div>
-
-                      <div class="collapsible-body ">
-                        <div class="card">
-                          <div class="card-content light-green ">
-                            <div class="card-title ">
-                              Інформація по рахунку
-                            </div>
-                          </div>
-                          <div class="card-content">
-                            <div class="row">
-                            <div class="col s12 m6">
-                              <p><b>Власник:</b> 1669 вул. 1-го Травня, буд.1, кв.1</p>
-                              <p><b>Кількість проживаючих:</b> 1</p>
-                              <p><b>Вид послуги:</b> Водопостачання і водовідведення</p>
-                            </div>
-                            <div class="col s12 m6">
-                              <p><b>Пільги:</b> Iнвалiд вiйни 2 групи.</p>
-                              <p><b>дійсна з:</b> 2018.10.08 до 2019.10.08</p>
-                              <p><b>card:</b> 111</p>
-                              <p><b>count:</b> 1</p>
-                            </div>
-
-                            </div>
-                          </div>
-                        </div>
-                        <!-- LICHYLNYK -->
-                        <div class="card">
-                          <div class="card-content light-green">
-                            <div class="card-title ">Лічильник
-                                <button class="btn waves-effect waves-light right" type="submit" name="action">Надіслати показники<i class="material-icons right">send</i>
-                                </button>
-                            </div>
-                          </div>
-                          <!-- <div class="card-content"> -->
-                            <table class="responsive-table centered">
-                              <thead>
-                                <tr>
-                                    <th>Лічильник</th>
-                                    <th>2018-11</th>
-                                    <th>Остфнній показ</th>
-                                    <th>Новий показник</th>
-                                    <th>Використано</th>
-                                </tr>
-                              </thead>
-                              <tbody>
-                                <tr>
-                                  <td>(ВХ) ВХ1-023965Б<br>Холодна вода</td>
-                                  <td>254</td>
-                                  <td >254</td>
-                                  <td ><input type="text"></td>
-                                  <td ></td>
-                                </tr>
-                              </tbody>
-                            </table>
+                    <!-- end of li -->
 
                           <!-- </div> -->
                         </div>
                         <!-- end of lichylnyk -->
 
-                        <!-- WOTER TABLE -->
-                        <div class="card reveal">
-                          <div class="card-content light-green">
-                            <span class="card-title">Вода + стоки<div class="right">ПЕРЕПЛАТА: <span class="white-text"><b> -524.67</b></span> грн.</div></span>
-                          </div>
-
-                          <!-- <div class="card-action"> -->
-
-                            <table class="responsive-table centered">
-                              <thead class="centered">
-                                <tr>
-                                  <th rowspan="2" >Період</th>
-                                  <th colspan="3" class="td-bg">Нарахування</th>
-                                  <th colspan="3">Оплата</th>
-                                  <th rowspan="2"class="td-bg">Сальдо</th>
-                                </tr>
-                                <tr class="highlight ">
-                                    <!-- <th >Період</th> -->
-                                    <th class="td-bg">Нарахування</th>
-                                    <th class="td-bg">Пільги</th>
-                                    <th class="td-bg">Всього</th>
-                                    <th>ОПЛАТА</th>
-                                    <th>СУБСИДІЯ</th>
-                                    <th>Всього</th>
-                                    <!-- <th class="td-bg">Сальдо</th> -->
-                                </tr>
-                              </thead>
-
-
-                              <tbody>
-                                  <tr>
-                                    <td>2018-11</td>
-                                    <td class="td-bg">-20.00</td>
-                                    <td class="td-bg"></td>
-                                    <td class="td-bg">-20.00</td>
-                                    <td>200.00</td>
-                                    <td></td>
-                                    <td>200.00</td>
-                                    <td class="td-bg">-524.67</td>
-                                  </tr>
-                                  <tr>
-                                    <td>2018-10</td>
-                                    <td class="td-bg"></td>
-                                    <td class="td-bg"></td>
-                                    <td class="td-bg">0.00</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td>0.00</td>
-                                    <td class="td-bg">-304.67</td>
-                                  </tr>
-                                  <tr>
-                                    <td>2017-02</td>
-                                    <td class="td-bg"></td>
-                                    <td class="td-bg"></td>
-                                    <td class="td-bg">0.00</td>
-                                    <td></td>
-                                    <td>0.00</td>
-                                    <td>0.00</td>
-                                    <td class="td-bg">-304.67</td>
-                                  </tr>
-                                  <tr>
-                                    <td>2017-01</td>
-                                    <td class="td-bg">16.96</td>
-                                    <td class="td-bg"></td>
-                                    <td class="td-bg">16.96</td>
-                                    <td>8.40</td>
-                                    <td>55.98</td>
-                                    <td>66.99</td>
-                                    <td class="td-bg">-213.57</td>
-                                  </tr>
-                                  <tr>
-                                    <td>2016-12</td>
-                                    <td class="td-bg">19.94</td>
-                                    <td class="td-bg">19.94</td>
-                                    <td class="td-bg"></td>
-                                    <td>8.65</td>
-                                    <td>54.97</td>
-                                    <td>63.62</td>
-                                    <td class="td-bg">-257.25</td>
-                                  </tr>
-                                  <tr>
-                                    <td>2016-11</td>
-                                    <td class="td-bg">32.41</td>
-                                    <td class="td-bg">35.20</td>
-                                    <td class="td-bg"></td>
-                                    <td>11.87</td>
-                                    <td>55.12</td>
-                                    <td>66.90</td>
-                                    <td class="td-bg">-213.57</td>
-                                  </tr>
-                                  <tr>
-                                    <td>2016-10</td>
-                                    <td class="td-bg">37.34</td>
-                                    <td class="td-bg"></td>
-                                    <td class="td-bg">37.34</td>
-                                    <td>15.22</td>
-                                    <td></td>
-                                    <td>15.22</td>
-                                    <td class="td-bg">-93.09</td>
-                                  </tr>
-                                </tbody>
-                              </table>
-                            <!-- </div> -->
-                        </div>
                       </div>
                     </li>
 
@@ -630,6 +360,13 @@
     </div>
 
 
+          </div>
+        </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
                                                                                           <!-- FOOTER -->
 
     <footer class="page-foter light-green darken-4 white-text">
