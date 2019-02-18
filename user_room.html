@@ -65,7 +65,7 @@
 
         <div class="row">
           <div class="col s12">
-            <div class="card light-green">
+            <div class="card light-green hoverable">
               <div class="card-content">
                 <div class="row">
                   <span class="card-title center white-text ">КП "Водоканад"</span>
@@ -74,9 +74,9 @@
         <div class="row">
           <div class="col s12">
             <ul id="tabs" class="tabs light-green white-text">
-              <li class="tab col s4"><a href="#test1" class="white-text">інформація</a></li>
-              <li class="tab col s4"><a href="#test2" class="white-text">новини</a></li>
-              <li class="tab col s4"><a href="#test3" class="white-text active">розрахунки</a></li>
+              <li class="tab col s4"><a href="#test1" class="white-text hoverable">інформація</a></li>
+              <li class="tab col s4"><a href="#test2" class="white-text hoverable">новини</a></li>
+              <li class="tab col s4"><a href="#test3" class="white-text active hoverable">розрахунки</a></li>
             </ul>
           </div>
           <div id="test1" class="col s12">
@@ -97,7 +97,7 @@
               </div>
             </div>
           </div>
-          <div id="test3" class="col s12">
+          <div id="test3" class="col s12 light-green hoverable">
 
 
         <!-- <div class="row">
@@ -119,12 +119,12 @@
 
         <div class="row">
           <div class="col s12">
-            <div class="card">
+            <div class="card hoverable">
               <div class="card-content ">
                 <span class="card-title">
                   Особові рахунки
                   <!-- Modal Trigger -->
-                  <a class="waves-effect waves-light btn right modal-trigger" href="#modal1">додати рахунок<i class="material-icons right">add</i></a>
+                  <a class="waves-effect waves-light btn right modal-trigger hoverable" href="#modal1">додати рахунок<i class="material-icons right ">add</i></a>
 
                   <!-- Modal Structure -->
                   <div id="modal1" class="modal">
@@ -151,7 +151,7 @@
 
 
               <div class="card-action bg-color">
-                <div class="card">
+                <div class="card hoverable">
                   <ul class="collapsible">
                     <li>
                       <div class="collapsible-header valign-wrapper">
@@ -165,10 +165,10 @@
 
 
                         <!-- LICHYLNYK -->
-                        <div class="card">
-                          <div class="card-content light-green">
+                        <div class="card hoverable">
+                          <div class="card-content light-green ">
                             <div class="card-title ">Лічильник
-                                <button class="btn waves-effect waves-light right" type="submit" name="action">Надіслати показники<i class="material-icons right">send</i>
+                                <button class="btn waves-effect waves-light right hoverable" type="submit" name="action">Надіслати показники<i class="material-icons right">send</i>
                                 </button>
                             </div>
                           </div>
@@ -198,21 +198,32 @@
                         </div>
                         <!-- end of lichylnyk -->
 
-                  <ul class="collapsible">
+                  <ul class="collapsible hoverable">
                     <li>
-                      <div class="collapsible-header valign-wrapper light-green">
-                        <h6><b>Вода + стоки</b></h6>
-                        <span class="badge">ВАША ЗАГАЛЬНА ПЕРЕПЛАТА: <b>-524.67грн</b></span>
-                      </div>
+                        <div class="collapsible-header valign-wrapper">
+                        <h6><b>Вода + стоки </b></h6>
+                        <span class="badge">ВАША ЗАГАЛЬНА ПЕРЕПЛАТА: <b>-24.67 грн</b></span>
+                          <!-- <div class="card-content "> -->
+                            <!-- <div class="card-title">Вода + стоки -->
+                              <!-- <div class="right">ПЕРЕПЛАТА: <span class="white-text"><b> -524.67</b></span> грн. -->
+                              <!-- </div> -->
+                            <!-- </div> -->
+                          <!-- </div> -->
+                        </div>
+                      <!-- <div class="collapsible-header valign-wrapper light-green"> -->
+                        <!-- <h6><b>Вода + стоки</b></h6> -->
+                        <!-- <span class="badge">ВАША ЗАГАЛЬНА ПЕРЕПЛАТА: <b>-524.67грн</b></span> -->
+                      <!-- </div> -->
 
                       <div class="collapsible-body ">
-                        <!-- WOTER TABLE -->
-                        <!-- <div class="card reveal"> -->
-                          <!-- <div class="card-content light-green"> -->
-                            <!-- <span class="card-title">Вода + стоки<div class="right">ПЕРЕПЛАТА: <span class="white-text"><b> -524.67</b></span> грн.</div></span> -->
-                          <!-- </div> -->
+                        <!-- <div class="card reveal">
+                          <div class="card-content light-green">
+                            <span class="card-title">Вода + стоки<div class="right">ПЕРЕПЛАТА: <span class="white-text"><b> -524.67</b></span> грн.</div></span>
+                          </div>
+                        </div> -->
 
-                            <table class="responsive-table centered "  style="text-align: right">
+                        <!-- WOTER TABLE -->
+                            <table class="responsive-table centered ">
                               <thead>
                                 <tr>
                                   <th rowspan="2" >Період</th>
@@ -221,17 +232,14 @@
                                   <th rowspan="2"class="td-bg">Сальдо</th>
                                 </tr>
                                 <tr class="highlight ">
-                                    <!-- <th >Період</th> -->
                                     <th class="td-bg">Нарахування</th>
                                     <th class="td-bg">Пільги</th>
                                     <th class="td-bg">Всього</th>
                                     <th>ОПЛАТА</th>
                                     <th>СУБСИДІЯ</th>
                                     <th>Всього</th>
-                                    <!-- <th class="td-bg">Сальдо</th> -->
                                 </tr>
                               </thead>
-
 
                               <tbody>
                                   <tr>
@@ -306,15 +314,16 @@
                                   </tr>
                                 </tbody>
                               </table>
-                            <!-- </div> -->
                             <!-- end of table -->
 
 
                       </div>
                     </li>
                   </ul>
+
+
                         <!-- INFO ABOUT ACCOUNT -->
-                        <div class="card">
+                        <div class="card hoverable">
                           <div class="card-content light-green ">
                             <div class="card-title ">
                               Інформація по рахунку
@@ -340,7 +349,7 @@
 
                         </div>
                       </div>
-                    </li>
+
                     <!-- end of li -->
 
                           <!-- </div> -->

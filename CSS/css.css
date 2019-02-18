@@ -120,3 +120,7 @@ div.map_1 div {
 .tAr {
   text-align: right!important;
 }
+
+.active {
+  /* background-color: #fff!important; */
+}

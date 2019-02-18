@@ -1,66 +1,87 @@
 console.log("yep");
-
-
-  document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.sidenav');
-    var instances = M.Sidenav.init(elems, options);
-  });
-
-  // Or with jQuery
-
   $(document).ready(function(){
     $('.sidenav').sidenav();
-  });
-
-
-  document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.fixed-action-btn');
-    var instances = M.FloatingActionButton.init(elems, options);
-  });
-
-  // Or with jQuery
-
-  $(document).ready(function(){
     $('.fixed-action-btn').floatingActionButton();
-  });
+    // $('.collapsible').collapsible({
+    //   accordion: true,
+    //   inDuration: 300,
+    //   onOpenStart: function(){
+    //     console.log("onOpenStart")
+    //   },
+    //   onOpenEnd: function() {
+    //     console.log("onOpenEnd")
+    //   }
 
-
-  document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.collapsible');
-    var instances = M.Collapsible.init(elems, options);
-  });
-
-  // Or with jQuery
-
-  $(document).ready(function(){
-    $('.collapsible').collapsible();
-  });
-  
-  document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.modal');
-    var instances = M.Modal.init(elems, options);
-  });
-
-  // Or with jQuery
-
-  $(document).ready(function(){
+    // });
     $('.modal').modal();
+    $('.tabs').tabs();
+    // $('.tabs').tabs('swipeable', true);
+    $('.tooltipped').tooltip();
+    $('.scrollspy').scrollSpy();
+
+      var elems = document.querySelectorAll('.collapsible');
+      var instances = M.Collapsible.init(elems, {
+        accordion: true
+      });
+      console.log(instances);
+      // instances.open(3);
+    // var elem = document.querySelector('.collapsible');
+    // var instance = M.Collapsible.init(elem, {
+    //   accordion: true
+    // });
+
   });
+    // document.addEventListener('DOMContentLoaded', function() {
+      // var elems = document.querySelectorAll('.collapsible');
+      // var instances = M.Collapsible.init(elems, {accordion: true});
+      // instance.open(3);
+      // var instances = M.Collapsible.init(elems, options);
+      // var instance = M.Collapsible.getInstance(elem);
+      // instance.open(3);
+    // });
+
+  // document.addEventListener('DOMContentLoaded', function() {
+  //   var elems = document.querySelectorAll('.sidenav');
+  //   var instances = M.Sidenav.init(elems, options);
+  // });
+
+
+  // document.addEventListener('DOMContentLoaded', function() {
+  //   var elems = document.querySelectorAll('.fixed-action-btn');
+  //   var instances = M.FloatingActionButton.init(elems, options);
+  // });
+
+
+  // document.addEventListener('DOMContentLoaded', function() {
+  //   var elems = document.querySelectorAll('.collapsible');
+  //   var instances = M.Collapsible.init(elems, {accordion: true});
+  //   // var instances = M.Collapsible.init(elems, options);
+  // });
+
+  // document.addEventListener('DOMContentLoaded', function() {
+  //   var elems = document.querySelectorAll('.modal');
+  //   var instances = M.Modal.init(elems, options);
+  // });
 
   
   //  ================================================================== TABS
-  // var instance = M.Tabs.init(el, options);
+  // document.addEventListener('DOMContentLoaded', function() {
+  //   var instance = M.Tabs.init(el, options);
+  // });
 
-  // Or with jQuery
-
-  $(document).ready(function(){
-    $('.tabs').tabs();
-    $('.tabs').tabs('swipeable', true);
-  });
   //  ================================================================== tabs
        
       
+  // document.addEventListener('DOMContentLoaded', function() {
+  //   var elems = document.querySelectorAll('.tooltipped');
+  //   var instances = M.Tooltip.init(elems, options);
+  // });
 
-const username = new MDCTextField(document.querySelector('.username'));
-const password = new MDCTextField(document.querySelector('.password'));
+  //   document.addEventListener('DOMContentLoaded', function() {
+  //   var elems = document.querySelectorAll('.scrollspy');
+  //   var instances = M.ScrollSpy.init(elems, options);
+  // });
+
+// const username = new MDCTextField(document.querySelector('.username'));
+// const password = new MDCTextField(document.querySelector('.password'));
 
