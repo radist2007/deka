@@ -2,28 +2,39 @@ console.log("yep");
   $(document).ready(function(){
     $('.sidenav').sidenav();
     $('.fixed-action-btn').floatingActionButton();
-    // $('.collapsible').collapsible({
-    //   accordion: true,
-    //   inDuration: 300,
-    //   onOpenStart: function(){
-    //     console.log("onOpenStart")
-    //   },
-    //   onOpenEnd: function() {
-    //     console.log("onOpenEnd")
-    //   }
+    $('.collapsible').collapsible({
+      accordion: true,
+      inDuration: 300,
+      onOpenStart: function(){
+        console.log("onOpenStart")
+      },
+      onOpenEnd: function() {
+        console.log("onOpenEnd")
+      }
 
-    // });
+    });
     $('.modal').modal();
     $('.tabs').tabs();
     // $('.tabs').tabs('swipeable', true);
     $('.tooltipped').tooltip();
     $('.scrollspy').scrollSpy();
 
-      var elems = document.querySelectorAll('.collapsible');
-      var instances = M.Collapsible.init(elems, {
-        accordion: true
-      });
-      console.log(instances);
+      // var elems = document.querySelectorAll('.collapsible');
+      // var instances = M.Collapsible.init(elems, {
+      //   accordion: true
+      // });
+      
+      // document.addEventListener('DOMContentLoaded', function() {
+        // var el = document.getElementById("tabs")
+        // var instance = M.Tabs.init(el, {
+          // duration: 1000,
+          // swipeable: true,
+          // responsiveThreshold: 100
+        // });
+        // instance.updateTabIndicator();
+      // instance.open(3);
+      // });
+      // console.log(instances);
       // instances.open(3);
     // var elem = document.querySelector('.collapsible');
     // var instance = M.Collapsible.init(elem, {

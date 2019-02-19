@@ -1,400 +1,445 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="shortcut icon" href="https://www.abon.com.ua/sites/default/files/favicon_0.ico" type="image/vnd.microsoft.icon">
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="CSS/materialize.css"  media="screen,projection"/>
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/css.css">
+<head>
+  <link rel="shortcut icon" href="https://www.abon.com.ua/sites/default/files/favicon_0.ico"
+    type="image/vnd.microsoft.icon">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="CSS/materialize.css" media="screen,projection" />
 
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  </head>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i"
+    rel="stylesheet">
+  <link rel="stylesheet" href="CSS/css.css">
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
 
 
   <body>
+    <!-- ========================================================================================================== HEADER -->
     <!-- HEADER -->
-    <nav class="light-green darken-4">
-      <div class="nav-wrapper">
-        <div class="container">
-          <a href="#" class="brand-logo">
-            <i class="logo-text logo-text_first">КОМУНАЛЬНИЙ КАБІНЕТ</i>
-            <img src="img/logo/abon_LOGO.png" alt="logo" style="margin-top: 12px;">
-            <i class="logo-text logo-text_second right ">АБОТЕНТА</i>
-          </a>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-          <ul class="right hide-on-med-and-down">
-            <li class=""><a href="index.html">ГОЛОВНА</a></li>
-          </ul>
+    <header class="header">
+      <nav class="light-green darken-4">
+        <div class="nav-wrapper">
+          <div class="container">
+            <a href="#" class="brand-logo">
+              <i class="logo-text logo-text_first">КОМУНАЛЬНИЙ КАБІНЕТ</i>
+              <img src="img/logo/abon_LOGO.png" alt="logo" style="margin-top: 12px;">
+              <i class="logo-text logo-text_second right ">АБОТЕНТА</i>
+            </a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+              <li class=""><a href="index.html">ГОЛОВНА</a></li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-    <!-- side-nav -->
-    <ul class="sidenav right" id="mobile-demo">
-      <li>
-        <img class="brand-logo" src="img/logo/abon_LOGO.png" alt="logo" style="margin-top: 12px;">
-      </li>
-      <li class="center"><a href="#">ГОЛОВНА</a></li>
-      <li class="center"><a href="#">ПАРОЛЬ</a></li>
-      <li class="center"><a href="#">ВИХІД</a></li>
-    </ul>
+      </nav>
+      <!-- START SIDE-NAV -->
+      <ul class="sidenav right" id="mobile-demo">
+        <li>
+          <img class="brand-logo" src="img/logo/abon_LOGO.png" alt="logo" style="margin-top: 12px;">
+        </li>
+        <li class="center"><a href="#">ГОЛОВНА</a></li>
+        <li class="center"><a href="#">ПАРОЛЬ</a></li>
+        <li class="center"><a href="#">ВИХІД</a></li>
+      </ul>
+      <!-- end of side-nav -->
+    </header>
     <!-- end of header -->
+    <!-- ========================================================================================================== header -->
 
+    <!-- ========================================================================================================== MAIN -->
+    <!-- START OF MAIN -->
     <div class="main">
       <div class="container">
-
-        <!-- <div class="row">
-          <div class="col s12">
-            <div class="card light-green">
-              <div class="card-content white-text ">
-                <div class="row">
-                  <span class="card-title right">КП "Водоканад"</span>
-                </div>
-                <div class="row">
-                  <a class="waves-effect waves-light btn-large "> інформація</a>
-                  <a class="waves-effect waves-light btn-large">новини</a>
-                  <a class="waves-effect waves-light btn-large">розрахунки</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> -->
-
         <div class="row">
           <div class="col s12">
+            <!-- START OF MAIN CARD -->
             <div class="card light-green hoverable">
               <div class="card-content">
                 <div class="row">
                   <span class="card-title center white-text ">КП "Водоканад"</span>
                 </div>
+                <!-- START OF TABS -->
                 <div class="row">
-        <div class="row">
-          <div class="col s12">
-            <ul id="tabs" class="tabs light-green white-text">
-              <li class="tab col s4"><a href="#test1" class="white-text hoverable">інформація</a></li>
-              <li class="tab col s4"><a href="#test2" class="white-text hoverable">новини</a></li>
-              <li class="tab col s4"><a href="#test3" class="white-text active hoverable">розрахунки</a></li>
-            </ul>
-          </div>
-          <div id="test1" class="col s12">
-            <div class="card">
-              <div class="card-content">
-                <div class="card-title">
-                  info card
-                </div>
-              </div>
-            </div>
-          </div>
-          <div id="test2" class="col s12">
-            <div class="card">
-              <div class="card-content">
-                <div class="card-title">
-                  news card
-                </div>
-              </div>
-            </div>
-          </div>
-          <div id="test3" class="col s12 light-green hoverable">
-
-
-        <!-- <div class="row">
-          <div class="col s12">
-            <ul class="tabs light-green white-text">
-              <li class="tab col s4"><a href="#test1" class="white-text">інформація</a></li>
-              <li class="tab col s4"><a class="active" href="#test2" class="white-text">новини</a></li>
-              <li class="tab col s4"><a href="#test3" class="white-text">розрахунки</a></li>
-            </ul>
-          </div>
-          <div id="test1" class="col s12">
-            info
-          </div>
-          <div id="test2" class="col s12">
-            news
-          </div>
-          <div id="test3" class="col s12"> -->
-            <!-- ===================================================================================================== -->
-
-        <div class="row">
-          <div class="col s12">
-            <div class="card hoverable">
-              <div class="card-content ">
-                <span class="card-title">
-                  Особові рахунки
-                  <!-- Modal Trigger -->
-                  <a class="waves-effect waves-light btn right modal-trigger hoverable" href="#modal1">додати рахунок<i class="material-icons right ">add</i></a>
-
-                  <!-- Modal Structure -->
-                  <div id="modal1" class="modal">
-                    <div class="modal-content">
-                      <h4>Реєстрація персонального рахунку</h4>
-                      <div class="input-field">
-                        <i class="material-icons prefix">account_circle</i>
-                        <input id="last_name" type="text" class="validate">
-                        <label for="last_name">номер рахунку з договору або розрахункової книжки</label>
+                  <div class="col s12">
+                    <ul id="tabs" class="tabs light-green white-text">
+                      <li class="tab col s4"><a href="#test1" class="white-text hoverable">інформація</a></li>
+                      <li class="tab col s4"><a href="#test2" class="white-text hoverable">новини</a></li>
+                      <li class="tab col s4"><a href="#test3" class="white-text active hoverable">розрахунки</a></li>
+                    </ul>
+                  </div>
+                  <!-- START OF TAB 1 -->
+                  <div id="test1" class="col s12">
+                    <div class="card hoverable">
+                      <div class="card-content">
+                        <div class="card-title">
+                          Інформаційні матеріали підприємства:
+                        </div>
                       </div>
-                      <div class="input-field">
-                        <i class="material-icons prefix">attach_money</i>
-                        <input id="name" type="text" class="validate">
-                        <label for="name">введіть суму Вашого останього платежу</label>
+                      <div class="card-acctive">
+                        <ul class="collapsible">
+                          <li>
+                            <div class="collapsible-header valign-wrapper hoverable">
+                              <h6><b>Система водовідведення міста </b>
+                                
+                              <br />
+                              <span class="hide-on-med-and-down"></span></h6>
+                              <span class="badge"><span class="hide-on-med-and-down">дізнатись більше...</span><b>!</b></span>
+                            </div>
+
+                            <div class="collapsible-body ">
+                              Система водовідведення складається із самопливних колекторів, 6-ти каналізаційних насосних станцій (КНС), напірних трубопроводів та каналізаційних очисних споруд (КОС). 
+                            </div>
+                          </li>
+                          <li>
+                            <div class="collapsible-header valign-wrapper hoverable">
+                              <h6><b>Історичний розвиток міськводоканалу м.Умань</b>
+                              <br />
+                              <span class="hide-on-med-and-down"></span></h6>
+                              <span class="badge"><span class="hide-on-med-and-down">дізнатись більше...</span><b>!</b></span>
+                            </div>
+
+                            <div class="collapsible-body ">
+                                Історичний розвиток міськводоканалу м.Умань Історія Уманського водогону веде свій початок з 1902 року....
+                            </div>
+                          </li>
+                          <li>
+                            <div class="collapsible-header valign-wrapper hoverable">
+                              <h6><b>Загальна характеристика КП «Уманьводоканал»</b>
+                              <br />
+                              <span class="hide-on-med-and-down"></span></h6>
+                              <span class="badge"><span class="hide-on-med-and-down">дізнатись більше...</span><b>!</b></span>
+                            </div>
+
+                            <div class="collapsible-body ">
+                                Загальна характеристика КП «Уманьводоканал» Система водопостачання міста Джерелом централізовано...
+                            </div>
+                          </li>
+                          <li>
+                            <div class="collapsible-header valign-wrapper hoverable">
+                              <h6><b>Коротка характеристика КП «Уманьводоканал»</b>
+                              <br />
+                              <span class="hide-on-med-and-down"></span></h6>
+                              <span class="badge"><span class="hide-on-med-and-down">дізнатись більше...</span><b>!</b></span>
+                            </div>
+
+                            <div class="collapsible-body ">
+                                Коротка характеристика КП «Уманьводоканал» Комунальне підприємство «Уманьводоканал» Уманської міс....
+                            </div>
+                          </li>
+                          <li>
+                            <div class="collapsible-header valign-wrapper hoverable">
+                              <h6><b>Система водопостачання міста</b>
+                              <br />
+                              <span class="hide-on-med-and-down"></span></h6>
+                              <span class="badge"><span class="hide-on-med-and-down">дізнатись більше...</span><b>!</b></span>
+                            </div>
+
+                            <div class="collapsible-body ">
+                                Система водопостачання міста Джерелом централізованого водопостачання міста Умані є:  поверхневі...
+                            </div>
+                          </li>
+                          <li>
+                            <div class="collapsible-header valign-wrapper hoverable">
+                              <h6><b>Субсидії! Важливо знати!</b>
+                              <br />
+                              <span class="hide-on-med-and-down"></span></h6>
+                              <span class="badge"><span class="hide-on-med-and-down">дізнатись більше...</span><b>!</b></span>
+                            </div>
+
+                            <div class="collapsible-body ">
+                                26 квітня 2017 р. Кабінетом Міністрів України була прийнята постанова № 300 «Про внесення змін до деяких постано...
+                            </div>
+                          </li>
+                        </ul>
                       </div>
-                    </div>
-                    <div class="modal-footer">
-                      <a href="#!" class="modal-close waves-effect waves-green btn-flat ">Зареєстувати</a>
                     </div>
                   </div>
-                </span>
-              </div>
-
-
-
-              <div class="card-action bg-color">
-                <div class="card hoverable">
-                  <ul class="collapsible">
-                    <li>
-                      <div class="collapsible-header valign-wrapper">
-                        <h6><b>Рахунок 2039 </b>
-                        <br/>
-                        Власник 1669 вул. 1-го Травня, буд.1, кв.1</h6>
-                        <span class="badge">ВАША ЗАГАЛЬНА ПЕРЕПЛАТА: <b>-24.67 грн</b></span>
-                      </div>
-
-                      <div class="collapsible-body ">
-
-
-                        <!-- LICHYLNYK -->
-                        <div class="card hoverable">
-                          <div class="card-content light-green ">
-                            <div class="card-title ">Лічильник
-                                <button class="btn waves-effect waves-light right hoverable" type="submit" name="action">Надіслати показники<i class="material-icons right">send</i>
-                                </button>
-                            </div>
-                          </div>
-                          <!-- <div class="card-content"> -->
-                            <table class="responsive-table centered">
-                              <thead>
-                                <tr>
-                                    <th>Лічильник</th>
-                                    <th>2018-11</th>
-                                    <th>Остфнній показ</th>
-                                    <th>Новий показник</th>
-                                    <th>Використано</th>
-                                </tr>
-                              </thead>
-                              <tbody>
-                                <tr>
-                                  <td>(ВХ) ВХ1-023965Б<br>Холодна вода</td>
-                                  <td>254</td>
-                                  <td >254</td>
-                                  <td ><input type="text"></td>
-                                  <td ></td>
-                                </tr>
-                              </tbody>
-                            </table>
-
-                          <!-- </div> -->
+                  <!-- end of tab 1 -->
+                  <!-- START OF TAB 2 -->
+                  <div id="test2" class="col s12">
+                    <div class="card">
+                      <div class="card-content">
+                        <div class="card-title">
+                          Інформаційні матеріали підприємства:
                         </div>
-                        <!-- end of lichylnyk -->
-
-                  <ul class="collapsible hoverable">
-                    <li>
-                        <div class="collapsible-header valign-wrapper">
-                        <h6><b>Вода + стоки </b></h6>
-                        <span class="badge">ВАША ЗАГАЛЬНА ПЕРЕПЛАТА: <b>-24.67 грн</b></span>
-                          <!-- <div class="card-content "> -->
-                            <!-- <div class="card-title">Вода + стоки -->
-                              <!-- <div class="right">ПЕРЕПЛАТА: <span class="white-text"><b> -524.67</b></span> грн. -->
-                              <!-- </div> -->
-                            <!-- </div> -->
-                          <!-- </div> -->
-                        </div>
-                      <!-- <div class="collapsible-header valign-wrapper light-green"> -->
-                        <!-- <h6><b>Вода + стоки</b></h6> -->
-                        <!-- <span class="badge">ВАША ЗАГАЛЬНА ПЕРЕПЛАТА: <b>-524.67грн</b></span> -->
-                      <!-- </div> -->
-
-                      <div class="collapsible-body ">
-                        <!-- <div class="card reveal">
-                          <div class="card-content light-green">
-                            <span class="card-title">Вода + стоки<div class="right">ПЕРЕПЛАТА: <span class="white-text"><b> -524.67</b></span> грн.</div></span>
-                          </div>
-                        </div> -->
-
-                        <!-- WOTER TABLE -->
-                            <table class="responsive-table centered ">
-                              <thead>
-                                <tr>
-                                  <th rowspan="2" >Період</th>
-                                  <th colspan="3" class="td-bg">Нарахування</th>
-                                  <th colspan="3">Оплата</th>
-                                  <th rowspan="2"class="td-bg">Сальдо</th>
-                                </tr>
-                                <tr class="highlight ">
-                                    <th class="td-bg">Нарахування</th>
-                                    <th class="td-bg">Пільги</th>
-                                    <th class="td-bg">Всього</th>
-                                    <th>ОПЛАТА</th>
-                                    <th>СУБСИДІЯ</th>
-                                    <th>Всього</th>
-                                </tr>
-                              </thead>
-
-                              <tbody>
-                                  <tr>
-                                    <td>2018-11</td>
-                                    <td class="td-bg tAr">-20.00</td>
-                                    <td class="td-bg tAr">0.00</td>
-                                    <td class="td-bg tAr">-20.00</td>
-                                    <td class="tAr">200.00</td>
-                                    <td class="tAr">0.00</td>
-                                    <td class="tAr">200.00</td>
-                                    <td class="td-bg tAr">-524.67</td>
-                                  </tr>
-                                  <tr>
-                                    <td>2018-10</td>
-                                    <td class="td-bg tAr">0.00</td>
-                                    <td class="td-bg tAr">0.00</td>
-                                    <td class="td-bg tAr">0.00</td>
-                                    <td class="tAr">0.00</td>
-                                    <td class="tAr">0.00</td>
-                                    <td class="tAr">0.00</td>
-                                    <td class="td-bg tAr">-304.67</td>
-                                  </tr>
-                                  <tr>
-                                    <td>2017-02</td>
-                                    <td class="td-bg tAr">0.00</td>
-                                    <td class="td-bg tAr">0.00</td>
-                                    <td class="td-bg tAr">0.00</td>
-                                    <td class="tAr">0.00</td>
-                                    <td class="tAr">0.00</td>
-                                    <td class="tAr">0.00</td>
-                                    <td class="td-bg tAr">0.00</td>
-                                  </tr>
-                                  <tr>
-                                    <td>2017-01</td>
-                                    <td class="td-bg tAr">16.96</td>
-                                    <td class="td-bg tAr"></td>
-                                    <td class="td-bg tAr">16.96</td>
-                                    <td class="tAr">8.40</td>
-                                    <td class="tAr">55.98</td>
-                                    <td class="tAr">66.99</td>
-                                    <td class="td-bg tAr">-213.57</td>
-                                  </tr>
-                                  <tr>
-                                    <td>2016-12</td>
-                                    <td class="td-bg tAr">19.94</td>
-                                    <td class="td-bg tAr">19.94</td>
-                                    <td class="td-bg tAr"></td>
-                                    <td class="tAr">8.65</td>
-                                    <td class="tAr">54.97</td>
-                                    <td class="tAr">63.62</td>
-                                    <td class="td-bg tAr">0.00</td>
-                                  </tr>
-                                  <tr>
-                                    <td>2016-11</td>
-                                    <td class="td-bg tAr">32.41</td>
-                                    <td class="td-bg tAr">35.20</td>
-                                    <td class="td-bg tAr"></td>
-                                    <td class="tAr">11.87</td>
-                                    <td class="tAr">55.12</td>
-                                    <td class="tAr">66.90</td>
-                                    <td class="td-bg tAr">-213.57</td>
-                                  </tr>
-                                  <tr>
-                                    <td>2016-10</td>
-                                    <td class="td-bg tAr">37.34</td>
-                                    <td class="td-bg tAr"></td>
-                                    <td class="td-bg tAr">37.34</td>
-                                    <td class="tAr">15.22</td>
-                                    <td class="tAr"></td>
-                                    <td class="tAr">15.22</td>
-                                    <td class="td-bg tAr">-93.09</td>
-                                  </tr>
-                                </tbody>
-                              </table>
-                            <!-- end of table -->
-
-
                       </div>
-                    </li>
-                  </ul>
-
-
-                        <!-- INFO ABOUT ACCOUNT -->
-                        <div class="card hoverable">
-                          <div class="card-content light-green ">
-                            <div class="card-title ">
-                              Інформація по рахунку
+                      <div class="card-acctive">
+                        <ul class="collapsible">
+                          <li>
+                            <div class="collapsible-header valign-wrapper">
+                              <!-- <h6><b>Система водовідведення міста </b> -->
+                              <br />
+                              <span class="hide-on-med-and-down"></span></h6>
+                              <span class="badge"><span class="hide-on-med-and-down">Читати</span><b>!</b></span>
                             </div>
-                          </div>
-                          <div class="card-content">
-                            <div class="row">
-                              <div class="col s12 m6">
-                                <p><b>Власник:</b> 1669 вул. 1-го Травня, буд.1, кв.1</p>
-                                <p><b>Кількість проживаючих:</b> 1</p>
-                                <p><b>Вид послуги:</b> Водопостачання і водовідведення</p>
+
+                            <div class="collapsible-body ">
+                              news
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- end of tab 2 -->
+
+                  <!-- START OF TAB 3 -->
+                  <div id="test3" class="col s12 light-green hoverable">
+                    <div class="card hoverable">
+                      <div class="card-content ">
+                        <span class="card-title">
+                          Особові рахунки
+                          <!-- Modal Trigger -->
+                          <a class="waves-effect waves-light btn right modal-trigger hoverable" href="#modal1">додати
+                            рахунок<i class="material-icons right ">add</i></a>
+                          <!-- Modal Structure -->
+                          <div id="modal1" class="modal">
+                            <div class="modal-content">
+                              <h4>Реєстрація персонального рахунку</h4>
+                              <div class="input-field">
+                                <i class="material-icons prefix">account_circle</i>
+                                <input id="last_name" type="text" class="validate">
+                                <label for="last_name">номер рахунку з договору або розрахункової книжки</label>
                               </div>
-                              <div class="col s12 m6">
-                                <p><b>Пільги:</b> Iнвалiд вiйни 2 групи.</p>
-                                <p><b>дійсна з:</b> 2018.10.08 до 2019.10.08</p>
-                                <p><b>card:</b> 111</p>
-                                <p><b>count:</b> 1</p>
+                              <div class="input-field">
+                                <i class="material-icons prefix">attach_money</i>
+                                <input id="name" type="text" class="validate">
+                                <label for="name">введіть суму Вашого останього платежу</label>
                               </div>
                             </div>
+                            <div class="modal-footer">
+                              <a href="#!" class="modal-close waves-effect waves-green btn-flat ">Зареєстувати</a>
+                            </div>
                           </div>
-                        </div>
-                        <!-- end of info about account -->
-
-                        </div>
+                        </span>
                       </div>
 
-                    <!-- end of li -->
+                      <div class="card-action bg-color">
+                        <div class="card hoverable">
+                          <ul class="collapsible">
+                            <li>
+                              <div class="collapsible-header valign-wrapper">
+                                <h6><b>Рахунок 2039 </b>
+                                  <br />
+                                  <span class="hide-on-med-and-down">Власник 1669 вул. 1-го Травня, буд.1, кв.1</span>
+                                </h6>
+                                <span class="badge"><span class="hide-on-med-and-down">ВАША ЗАГАЛЬНА ПЕРЕПЛАТА:
+                                  </span><b>-24.67 грн</b></span>
+                              </div>
+                              <!-- START OF COLLAPSIBLE-BODY OF MAIN accounts -->
+                              <div class="collapsible-body ">
 
-                          <!-- </div> -->
+                                <!-- LICHYLNYK -->
+                                <div class="card hoverable">
+                                  <div class="card-content light-green ">
+                                    <div class="card-title ">Лічильник
+                                      <button class="btn waves-effect waves-light right hoverable" type="submit"
+                                        name="action">Надіслати показники<i class="material-icons right">send</i>
+                                      </button>
+                                    </div>
+                                  </div>
+                                  <table class="responsive-table centered">
+                                    <thead>
+                                      <tr>
+                                        <th>Лічильник</th>
+                                        <th>2018-11</th>
+                                        <th>Остфнній показ</th>
+                                        <th>Новий показник</th>
+                                        <th>Використано</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>(ВХ) ВХ1-023965Б<br>Холодна вода</td>
+                                        <td>254</td>
+                                        <td>254</td>
+                                        <td><input type="text"></td>
+                                        <td></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                                <!-- end of lichylnyk -->
+
+                                <!-- START OF COLLAPSIBLE TABLES -->
+                                <ul class="collapsible hoverable">
+                                  <li>
+                                    <div class="collapsible-header valign-wrapper">
+                                      <h6><b>Вода + стоки </b></h6>
+                                      <span class="badge">ВАША ЗАГАЛЬНА ПЕРЕПЛАТА: <b>-24.67 грн</b></span>
+                                    </div>
+                                    <div class="collapsible-body ">
+                                      <!-- WOTER TABLE -->
+                                      <table class="responsive-table centered ">
+                                        <thead>
+                                          <tr>
+                                            <th rowspan="2">Період</th>
+                                            <th colspan="3" class="td-bg">Нарахування</th>
+                                            <th colspan="3">Оплата</th>
+                                            <th rowspan="2" class="td-bg">Сальдо</th>
+                                          </tr>
+                                          <tr class="highlight ">
+                                            <th class="td-bg">Нарахування</th>
+                                            <th class="td-bg">Пільги</th>
+                                            <th class="td-bg">Всього</th>
+                                            <th>ОПЛАТА</th>
+                                            <th>СУБСИДІЯ</th>
+                                            <th>Всього</th>
+                                          </tr>
+                                        </thead>
+
+                                        <tbody>
+                                          <tr>
+                                            <td>2018-11</td>
+                                            <td class="td-bg tAr">-20.00</td>
+                                            <td class="td-bg tAr">0.00</td>
+                                            <td class="td-bg tAr">-20.00</td>
+                                            <td class="tAr">200.00</td>
+                                            <td class="tAr">0.00</td>
+                                            <td class="tAr">200.00</td>
+                                            <td class="td-bg tAr">-524.67</td>
+                                          </tr>
+                                          <tr>
+                                            <td>2018-10</td>
+                                            <td class="td-bg tAr">0.00</td>
+                                            <td class="td-bg tAr">0.00</td>
+                                            <td class="td-bg tAr">0.00</td>
+                                            <td class="tAr">0.00</td>
+                                            <td class="tAr">0.00</td>
+                                            <td class="tAr">0.00</td>
+                                            <td class="td-bg tAr">-304.67</td>
+                                          </tr>
+                                          <tr>
+                                            <td>2017-02</td>
+                                            <td class="td-bg tAr">0.00</td>
+                                            <td class="td-bg tAr">0.00</td>
+                                            <td class="td-bg tAr">0.00</td>
+                                            <td class="tAr">0.00</td>
+                                            <td class="tAr">0.00</td>
+                                            <td class="tAr">0.00</td>
+                                            <td class="td-bg tAr">0.00</td>
+                                          </tr>
+                                          <tr>
+                                            <td>2017-01</td>
+                                            <td class="td-bg tAr">16.96</td>
+                                            <td class="td-bg tAr"></td>
+                                            <td class="td-bg tAr">16.96</td>
+                                            <td class="tAr">8.40</td>
+                                            <td class="tAr">55.98</td>
+                                            <td class="tAr">66.99</td>
+                                            <td class="td-bg tAr">-213.57</td>
+                                          </tr>
+                                          <tr>
+                                            <td>2016-12</td>
+                                            <td class="td-bg tAr">19.94</td>
+                                            <td class="td-bg tAr">19.94</td>
+                                            <td class="td-bg tAr"></td>
+                                            <td class="tAr">8.65</td>
+                                            <td class="tAr">54.97</td>
+                                            <td class="tAr">63.62</td>
+                                            <td class="td-bg tAr">0.00</td>
+                                          </tr>
+                                          <tr>
+                                            <td>2016-11</td>
+                                            <td class="td-bg tAr">32.41</td>
+                                            <td class="td-bg tAr">35.20</td>
+                                            <td class="td-bg tAr"></td>
+                                            <td class="tAr">11.87</td>
+                                            <td class="tAr">55.12</td>
+                                            <td class="tAr">66.90</td>
+                                            <td class="td-bg tAr">-213.57</td>
+                                          </tr>
+                                          <tr>
+                                            <td>2016-10</td>
+                                            <td class="td-bg tAr">37.34</td>
+                                            <td class="td-bg tAr"></td>
+                                            <td class="td-bg tAr">37.34</td>
+                                            <td class="tAr">15.22</td>
+                                            <td class="tAr"></td>
+                                            <td class="tAr">15.22</td>
+                                            <td class="td-bg tAr">-93.09</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                      <!-- end of table -->
+                                    </div>
+                                  </li>
+                                </ul>
+                                <!-- end of collapsible tables -->
+
+
+                                <!-- INFO ABOUT ACCOUNT -->
+                                <div class="card hoverable">
+                                  <div class="card-content light-green ">
+                                    <div class="card-title ">
+                                      Інформація по рахунку
+                                    </div>
+                                  </div>
+                                  <div class="card-content">
+                                    <div class="row">
+                                      <div class="col s12 m6">
+                                        <p><b>Власник:</b> 1669 вул. 1-го Травня, буд.1, кв.1</p>
+                                        <p><b>Кількість проживаючих:</b> 1</p>
+                                        <p><b>Вид послуги:</b> Водопостачання і водовідведення</p>
+                                      </div>
+                                      <div class="col s12 m6">
+                                        <p><b>Пільги:</b> Iнвалiд вiйни 2 групи.</p>
+                                        <p><b>дійсна з:</b> 2018.10.08 до 2019.10.08</p>
+                                        <p><b>card:</b> 111</p>
+                                        <p><b>count:</b> 1</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- end of info about account -->
+                              </div>
+                              <!-- end of main accounts -->
+                            </li>
+                            <!-- end of li -->
+                          </ul>
                         </div>
-                        <!-- end of lichylnyk -->
-
                       </div>
-                    </li>
-
+                      <!-- end of card-action -->
+                    </div>
+                  </div>
+                  <!-- end of tab 3 -->
                 </div>
+                <!-- end of tabs -->
               </div>
-
             </div>
+            <!-- end of main card -->
           </div>
         </div>
       </div>
     </div>
+    <!-- end of main -->
+    <!-- ========================================================================================================== main -->
 
-
-          </div>
-        </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-                                                                                          <!-- FOOTER -->
-
+    <!-- ========================================================================================================== FOOTER -->
+    <!-- FOOTER -->
     <footer class="page-foter light-green darken-4 white-text">
       <div class="container">
         <div class="row">
           <div class="col l6 s12">
             <h5 class="">Цікава інформація</h5>
             <!-- <h5 class="white-text">footer text</h5> -->
-            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo odit sapiente dolorum! Consequatur omnis, eos deleniti eligendi cumque fugiat similique?</p>
+            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo odit sapiente dolorum! Consequatur
+              omnis, eos deleniti eligendi cumque fugiat similique?</p>
           </div>
           <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
-                <ul>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-                </ul>
-              </div>
+            <h5 class="white-text">Links</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+            </ul>
+          </div>
         </div>
       </div>
       <div class="footer-copyright">
@@ -405,11 +450,13 @@
         </div>
       </div>
     </footer>
+    <!-- end of footer -->
+    <!-- ========================================================================================================== footer -->
 
 
     <script src="js/jquery.3.3.1.min.js"></script>
-    <!--JavaScript at end of body for optimized loading-->
-    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
     <script src="js/main.js"></script>
   </body>
+
 </html>
