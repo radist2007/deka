@@ -4,8 +4,7 @@ $(document).ready(function(){
   $('.sidenav').sidenav();
   $('.fixed-action-btn').floatingActionButton();
   $('.modal').modal();
-  $('.tabs').tabs();
-  $('.materialboxed').materialbox();
+  // $('.tabs').tabs();
   $('.tooltipped').tooltip();
   $('.scrollspy').scrollSpy();
   $('.collapsible').collapsible({
@@ -21,21 +20,21 @@ $(document).ready(function(){
 
 });
 
-// document.addEventListener('DOMContentLoaded', function() {
-//       var elem = document.querySelector('#tabs');
-//       var instance = M.Tabs.init(elem, {
-//         swipeable: false,
-//         onShow: function() {
-//           console.log("ON show tab");
-//           // var t = document.querySelector('.tabs-content');
-//           console.log(t);
-//           // t.style.height = "1000px";
-//         }
-//       });
+document.addEventListener('DOMContentLoaded', function() {
+      var elem = document.querySelector('#tabs');
+      var instance = M.Tabs.init(elem, {
+      swipeable: true,
+        onShow: function() {
+          console.log("ON show tab");
+          var t = document.querySelector('.tabs-content');
+          console.log(t);
+          t.style.height = "1000px";
+        }
+      });
 
 
 
-// });
+});
 
     // document.addEventListener('DOMContentLoaded', function() {
       // var elems = document.querySelectorAll('.collapsible');
